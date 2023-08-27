@@ -1,0 +1,53 @@
+<div class="container">
+  <!DOCTYPE html>
+<!-- divinectorweb.com -->
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Neuton&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="bodyhome">  
+    <div class="homecasa">
+      <div class="content">
+        <h1> SUSTENIGMA</h1>
+        <h6><font size="6"> ODS: EXPLORA, APRENDE Y ACTÚA</h6>
+        <img class="image" src="https://clipart-library.com/images/kcMnnkR6i.png"
+          width="250";
+          height="250";>
+        <div class="contenedorBotones">
+          <div class="bot">
+            <form action="/dificultad" method="GET">
+              <button class="learn-more">¡Juega ahora! </button>
+            </form>
+          </div>
+          <div class="bot2">
+            <form action="/repaso" method="GET">
+              <button class="learn-more">¡Repasa tus conocimientos!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      <script>
+          $(document).readyfunction ()
+              $("#box").on("input change", function () {
+            
+              $("body").css("background-color", $(this).val());
+              if ($("#box").val() = "#8d8d8d") {
+                  $("h2, p").css("color", "white");
+              } else {
+                  $("h2, p").css("color", "black");
+              }
+              });
+      </script>
+  </body>
+</html>
